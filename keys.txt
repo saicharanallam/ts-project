@@ -1,0 +1,53 @@
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none):
+
+Wrote new keypair to /home/xanrick/.config/solana/id.json
+===========================================================================
+pubkey: 6MPRTWTq9zZzzuGmx1CyBD944ouxb7enPf9DiDTQpySu
+===========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+outdoor wrist input unable all once february maple dinner lawn obey gravity
+===========================================================================
+
+
+Account 2/ Receiving account
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none):
+
+Wrote new keypair to /home/xanrick/.config/solana/id.json
+=======================================================================
+pubkey: DPnLkQoJ3XV7inAV734qDWMiaXziWRrexJT1WfNwZC75
+=======================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+icon reduce rotate first shield nest argue section today habit gain end
+=======================================================================
+
+
+Sending account:
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none):
+
+Wrote new keypair to /home/xanrick/.config/solana/id2.json
+==============================================================================
+pubkey: CjMdBz9w8SgwFJu2Pk7pgrgRJRgs2Gci3Rt7HLQiozDn
+==============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+accident olympic venue flag same discover lava scatter rigid bicycle icon swap
+==============================================================================
