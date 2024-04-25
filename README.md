@@ -18,7 +18,10 @@ This script interacts with the Solana blockchain using the `@solana/web3.js` lib
 - `fromKeyPair`: Set this variable to the secret key of the sender's account.
 - `toPublicKey`: Set this variable to the public key of the recipient's account.
 
-4. **Run the Script**: Execute the script using the following command:
+4. **Run the Script**: 
+- Execute the script using the following command: `solana-test-validator` this will run local blockchain
+- In a different terminal `npm run build`, once the project is built run `node dist/transfer-sol/index.js`
+- You can try other transfer and airdrop functions directly
 
 ## Important Notes
 
