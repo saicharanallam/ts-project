@@ -29,6 +29,7 @@ const transferSol = (from, to, amount) => __awaiter(void 0, void 0, void 0, func
     console.log("Done");
 });
 exports.transferSol = transferSol;
+// These are my local experimental wallets, will not work in prod env
 const secret = Uint8Array.from([191, 170, 103, 12, 143, 200, 9, 106, 216, 53, 95, 124, 147, 183, 200, 179, 166, 178, 236, 84, 107, 173, 90, 202, 35, 92, 57, 32, 215, 197, 254, 21, 174, 74, 69, 14, 112, 36, 196, 135, 240, 179, 126, 211, 61, 54, 216, 31, 129, 180, 174, 33, 200, 74, 67, 216, 29, 133, 248, 130, 207, 21, 94, 201]);
 const fromKeyPair = web3_js_1.Keypair.fromSecretKey(secret);
 const toPublicKey = new web3_js_1.PublicKey("DPnLkQoJ3XV7inAV734qDWMiaXziWRrexJT1WfNwZC75");
