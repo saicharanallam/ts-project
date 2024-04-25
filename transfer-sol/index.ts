@@ -2,7 +2,6 @@ import {Connection, PublicKey, Keypair, Transaction, SystemProgram, LAMPORTS_PER
 import { airdrop } from "../airdrop";
 import { showBalance } from "../show-balance";
 export const transferSol = async (from: Keypair, to: PublicKey, amount: number) => {
-    console.log("Starting Solana Transfer")
     const connection = new Connection(`http://localhost:8899`, `confirmed`);
     const transaction = new Transaction();
     const instruction = SystemProgram.transfer({
@@ -14,7 +13,6 @@ export const transferSol = async (from: Keypair, to: PublicKey, amount: number) 
     transaction.add(instruction)
     transaction.add(instruction)
     await sendAndConfirmTransaction(connection, transaction, [from])
-    console.log("Done")
 }
 
 
