@@ -1,0 +1,13 @@
+# Node.js and TypeScript
+node_modules/
+*.js
+
+# Compiled TypeScript
+*.js.map
+*.js.LICENSE.txt
+
+# Environment variables
+.env
+
+# Dependency directories
+pinned-deps/
